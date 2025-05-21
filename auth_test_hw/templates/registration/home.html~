@@ -1,0 +1,6 @@
+{% extends "registration/base.html" %}
+{% block title %}Home{% endblock %}
+{% block content %}
+<h1>Welcome to the Auth Test Project</h1>
+<p><a href="{% url 'register' %}">Register</a> or <a href="{% url 'login' %}">Login</a></p>
+{% endblock %}
